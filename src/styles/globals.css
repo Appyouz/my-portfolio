@@ -1,0 +1,9 @@
+
+/* globals.css */
+
+body {
+  background-color: #121212; /* Dark background color for the entire page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  color: #ffffff; /* Light text color for better visibility */
+}

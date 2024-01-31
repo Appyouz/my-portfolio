@@ -1,0 +1,91 @@
+
+.container { 
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+text-align: center;
+}
+
+.portfolio-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-icon {
+  margin-top:50px;
+  width: 250px; /* Adjust the size of the profile icon */
+  /* height: 250px; */
+  border-radius: 50%; /* Create a circular shape */
+  margin-right: 10px; /* Add spacing between the icon and the title */
+}
+
+
+.projects-section {
+  text-align: center;
+  margin-top: 20px; /* Add space above the Projects section */
+}
+
+.projects-section h2 {
+  margin-bottom: 10px; /* Add some space below the Projects section title */
+}
+
+.projects-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding for the list */
+  
+  text-align: left; /* Align text to the left within the list */
+}
+
+.projects-list-item {
+  margin-bottom: 15px; /* Add space between each project item */
+}
+
+
+.projects-list-item a {
+  color: #ffffff; /* Set the text color for project links */
+  text-decoration: underline; /* Add underline */
+  font-weight: bold; /* Make the text bold */
+  font-style: italic; /* Make the text italic */
+  font-size: 1.1em; /* Adjust the font size */
+  transition: color 0.3s; /* Add transition for color change */
+}
+
+.projects-list-item a:hover {
+  color: #d93025; /* Change color on hover */
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add spacing between icons */
+  filter: brightness(70%);
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with some transparency */
+  padding: 10px; /* Add padding around the icons */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.contact-icons a {
+
+  text-decoration: none;
+ /* color: #ffffff; /* Set the text color */
+  margin-bottom: 10px; /* Add space between icons */
+  transition: transform 0.3s, color 0.3s; /* Add transitions for hover effect */
+  color: #d93025; /* Reddish color */
+
+}
+
+.contact-icons a:hover {
+
+  color: #d93025; /* Change color on hover */
+  transform: scale(1.1); /* Scale up on hover */
+}
