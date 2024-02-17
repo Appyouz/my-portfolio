@@ -23,7 +23,7 @@ const Home = () => {
           digital advancements. Beyond my analytical side, I find joy in the creative
           realm, where I indulge in both playing and developing games. This unique blend
           of technical curiosity and creative exploration defines my multifaceted approach
-          to the ever-evolving world of computing."
+          to the ever-evolving world of computing.
         </p>
       </section>
       <section className={styles['projects-section']}>
@@ -35,6 +35,9 @@ const Home = () => {
           </li>
           <li className={styles['projects-list-item']}>
             <p><a href='https://github.com/Appyouz/appyouz.github.io'>Online Book shopping</a> - A college project on user interface design front end for online book selling site.</p>
+          </li>
+          <li className={styles['projects-list-item']}>
+            <p><a href='https://github.com/Appyouz/password_generator'>Password Generator</a> - A college project on user interface design front end for online book selling site.</p>
           </li>
         </ul>
       </section>
