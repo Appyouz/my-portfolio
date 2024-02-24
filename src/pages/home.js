@@ -17,11 +17,10 @@ const Home = () => {
       <section>
         <h2>Who Am I?</h2>
         <p>
-          I am an enthusiastic computer nerd with a keen interest in networking and
-          cybersecurity. Leveraging my passion for technology, I delve into the
+          I am an enthusiastic computer person with a keen interest in networking and
+          cybersecurity. Leveraging my passion(not really) for technology, I delve into the
           intricacies of networks and cybersecurity to stay at the forefront of
-          digital advancements. Beyond my analytical side, I find joy in the creative
-          realm, where I indulge in both playing and developing games. This unique blend
+          digital advancements. Beyond my analytical side, I indulge in both playing and developing games. This unique blend
           of technical curiosity and creative exploration defines my multifaceted approach
           to the ever-evolving world of computing.
         </p>
@@ -37,7 +36,7 @@ const Home = () => {
             <p><a href='https://github.com/Appyouz/appyouz.github.io'>Online Book shopping</a> - A college project on user interface design front end for online book selling site.</p>
           </li>
           <li className={styles['projects-list-item']}>
-            <p><a href='https://github.com/Appyouz/password_generator'>Password Generator</a> - A college project on user interface design front end for online book selling site.</p>
+            <p><a href='https://github.com/Appyouz/password_generator'>Password Generator</a> - A password generator that just works.</p>
           </li>
         </ul>
       </section>
